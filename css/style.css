@@ -1,0 +1,92 @@
+
+        body{
+            background-color: cyan;
+           font-family: Arial,sans-serif;
+            margin:0;
+            padding:0;
+            color: black;
+        }
+        nav{
+
+            background-color: darkgoldenrod;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul{
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li{
+            margin: 0 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            padding: 10px 20px;
+            border-radius:50PX
+        }
+        nav ul li a:hover{
+            background-color: black;
+            color: white;
+        }
+.About{
+
+          background-color: lightskyblue;
+          height: 60px;
+        }
+
+        .Section{
+          background-color: yellowgreen;
+          height: 60px;
+        }
+        .hero-image{
+          background-image: url("https://cdn.pixabay.com/photo/2017/08/18/12/23/building-2654823_960_720.jpg");
+          background-size: cover;
+          background-position: center;
+          height: 570px;
+          border-radius: 15px;
+          margin: 20px;
+        }
+        .section-one{
+          text-align: center;
+          color: blueviolet;
+          height: 80px;
+          position: relative;
+
+        }
+.image-one img{
+    height: 40vh;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+.Image-two img{
+    height: 40vh;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+.Image-three img{
+    height: 40vh;
+    width: 400px;
+     display: flex;
+    justify-content: center;
+}
+.Image-four img{
+    height: 40vh;
+    width: 400px;
+     display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+}
